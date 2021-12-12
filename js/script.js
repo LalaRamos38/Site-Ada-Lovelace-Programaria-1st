@@ -4,6 +4,6 @@ function validaFormulario() {
     if (document.getElementById("nome").value != "" && document.getElementById("email").value != "" && document.getElementById("telefone").value != "") {
         alert("Prontinho!você receberá as novidades por email.")
     } else {
-        alert("Por favor,preencha com os campos nome,email e telefone.")
+        alert("Por favor, preencha com os campos nome, email e telefone.")
     }
 }
